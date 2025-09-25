@@ -1,0 +1,19 @@
+﻿
+<h2>Customer List</h2>
+@await Html.PartialAsync("_CreateCustomerModal")
+@await Html.PartialAsync("_EditCustomerModal")
+@await Html.PartialAsync("_DeleteCustomerModal")
+<button class="btn btn-primary mb-2" onclick="openCreateModal()">Add Customer</button>
+
+<table id="customerTable" class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>

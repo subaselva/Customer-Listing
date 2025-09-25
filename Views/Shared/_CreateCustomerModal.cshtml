@@ -1,0 +1,33 @@
+﻿<div class="modal fade" id="createModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Create Customer</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-danger d-none" id="createError"></div>
+                <div class="mb-3">
+                    <label>Name</label>
+                    <small class="text-danger" id="createNameError"></small>
+                    <input type="text" id="createName" class="form-control" />
+                    
+                </div>
+                <div class="mb-3">
+                    <label>Email</label>
+                    <small class="text-danger" id="createEmailError"></small>
+                    <input type="text" id="createEmail" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label>Phone</label>
+                    <small class="text-danger" id="createPhoneError"></small>
+                    <input type="text" id="createPhone" class="form-control" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button class="btn btn-success" onclick="createCustomer()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
