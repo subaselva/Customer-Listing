@@ -33,6 +33,14 @@ A simple **ASP.NET Core MVC 9** project to manage customers with **AJAX CRUD ope
 - **Validation** – Client-side field validation for Name, Email, Phone.  
 - **DataTables API** – For table initialization and reload after CRUD operations.  
 
+Instructions to Run:
+1. Extract the zip file.
+2. Open the solution in Visual Studio 2022.
+3. Restore NuGet packages.
+   dotnet restore
+4. Apply migrations using  `dotnet ef migrations add InitialCreate`
+    and update database `dotnet ef database update`.
+5. Run the project and navigate to `/Customers`.
 ---
 
 ## Installation
