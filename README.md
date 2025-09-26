@@ -42,6 +42,7 @@ Instructions to Run:
     and update database `dotnet ef database update`.
 5. Run the project and navigate to `/Customers`.
 ---
+<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/a5e6c599-1bbb-40e7-97c3-e0c80e9fdcf2" />
 
 ## Installation
 1. Clone the repository:
